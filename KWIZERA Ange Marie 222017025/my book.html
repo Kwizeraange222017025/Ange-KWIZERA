@@ -1,0 +1,163 @@
+<html>
+<head>
+	<title>my book</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<body>
+	<p>
+        <a href="./home.html">HOME</a>
+        <a href="./about.html">ABOUT</a>
+        <a href="./contact.html">CONTACT</a>
+        <a href="./services.html">SERVICES</a>
+        <a href="./form.html">FORM</a>
+        <a href="./table.html">TABLE</a>
+        <a href="./my book.html">MYBOOK</a>
+    </p>
+	<h1>DATABASE AND JAVA PAYROLL MANAGEMENT SYSTEM</h1>
+	<ol><h2><u><li>DATABASE</li></u></h2>
+		<p>Database name used: <b>payroll management system.</b></p>
+		<ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+			<ol><li><b>employee Table</b></li>
+
+			<p>employee table database structure This table will be showing what criteria make one employee to belong in one grade that have been distributed in another table.
+            Note: the created employee will not have same ability and right in the system.</p></br>
+
+			<li><b>tax Table</b></li>
+
+			<p>tax Table database structure This table contain all tax in the company and will be created by the system tax and fill allowed user depending on the user type</p> </br>
+
+
+			<li><b>payroll table.</b></li>
+
+			<p>payroll Table database structure This is payroll table than will be only created by admin than will be used by payroll to the user of this software system in easy and fast way..</p></br>
+
+			<li><b>Time tracking table </b></li>
+
+			<p>Time tracking Table database structure This table will help the company to know the time user or employee entered or started to use system and when he logout from system and this will help to ensure the security of users.</p></br>
+
+            <li><b>Users table </b></li>
+
+			<p>Users table  database structure This will help users of this system to ask for product and to get information they need about the company in easy way and to access it every where they are.</p></br>
+
+			<h3><u><i><li>Attributes</li></i></u></h3>
+			       <b>Attributes of employee Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in employee table:</br>
+
+    <p><b><i>Employee_id (primary key):</i></b> id for the employee.</br></p> 
+
+    <p><b><i>First_name(varchar):</i></b> first name of employee.</br></p>
+
+    <p><b><i>Last_name(varchar):</i></b> last name of employee.</br></p> 
+
+    <p><b><i>Date_of_birth(varchar):</i></b> date of birth of employee.</br></p>  
+
+
+
+                    <b>Attributes of payroll Table</b></br>
+
+    Here are the descriptions or purposes of the attributes/columns used in payroll table:</br>
+
+
+<p><b><i>Payroll_Id:</i></b> The column which are represents  id of payroll .</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of payroll table.</br></p>
+
+<p><b><i>Employee _id(primary key):</i></b>  the column which are represents Employee _id.(primary key)</p></br>
+
+<p><b><i>Pay_period_start_date(varchar):</i></b> The column which are represents  the date of starting period.</br></p>
+
+<p><b><i>Pay_period_end_date(varchar):</i></b> The columns which are represents  the date of ending period.</br></p>
+
+
+                    <b>Attributes of tax Table</b></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in tax table:</br>
+
+
+
+<p><b><i>tax_Id(primary key):</i></b> The column which are represents id of tax payer which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of tax table.</p></br>
+
+<p><b><i>Tax_name(varchar):</i></b> The column which are represents  name of tax to be paid.</p></br>
+
+<p><b><i>Tax_rate(varchar):</i></b> The column which are represents  the rate of tax to be paid.</p></br>
+
+<p><b><i>Tax_ category(varchar):</i></b> The column which are represents category of tax to be paid</p></br>
+
+
+
+
+                    <b>Attributes of Time tracking Table</b></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in Time tracking table:</br>
+
+<p><b><i>Time_id(primary key):</i></b> The column which are represents time id  which is unique value called PRIMARY KEY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of time tracking table.</p></br>
+
+
+<p><b><i>Employee_id(primary key):</i></b> The column which are represents id of employee which  is references to the product  table value called FOREIGN KEY.  It is a column of time tracking table  which has relationship between time tracking table.</p></br>
+
+<p><b><i>Clock_in_time(varchar):</i></b> The column which are represents  the time employee entered.</p></br> 
+
+<p><b><i>Clock_out_time(varchar):</i></b> The column which are represents the time employee loged out</p></br>
+
+
+
+                   <b>Attributes of users Table</b></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in users table:</br>
+
+
+<p><b><i>User_ id (primary key):</i></b> The column which are represents id of users which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of users table.</p></br>
+
+
+<p><b><i>Username(varchar):</i></b> The column which are represents name of the users.</p></br>
+
+<p><b><i>Password(varchar):</i></b> The column which are represents the password of users.</p></br>
+
+
+<p><b>User_type:</i></b> The column which are represents  types of users.</p></br>
+
+
+
+			
+
+
+
+         </ul>
+		<h2><u><li>JAVA</li></u></h2>
+		
+		<ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+			  Introduction 
+ 
+This will describing how powerful general- purpose programming language was used to create the analyzed system. Under this chapter i will undergo full details of how everything will function together with database that have been describe above and how it cope with full analyzed system.
+Tools used to develop this system in java programming :Eclipse IDE: an integrated development environment used in computer programming. It contains a base workplace and any extensible plug_in system for customizing  the environment.It is the second -most-popular IDE for java development, and, until, 2016, was the most popular.
+
+
+			              <h3><u><i><li>Forms and Images</li></i></u></h3>
+
+<b><i>emp Form</i></b></br>
+<img src="emp.png" width=900 height=400><br><br><br><br>
+
+<b><i>payroll Form</i></b></br>
+<img src="payroll.png" width=900 height=400><br><br><br><br>
+
+<b><i>tax Form</i></b></br>
+<img src="tax.png" width=900 height=400><br><br><br><br>
+
+<b><i>users Form</i></b></br>
+<img src="users.png" width=900 height=400><br><br><br><br>
+
+
+
+
+
+        </ul>
+		
+	</ol>
+	<marquee><u><i>Prepared By</i></u>:KWIZERA Ange Marie</marquee>
+	</body>
+	</html>
